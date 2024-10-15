@@ -71,6 +71,6 @@ build/fs.img:
 clean: 
 	rm -rf build
 	rm -f *.o *.d *.asm *.sym vectors.S bootblock entryother \
-	initcode initcode.out kernel xv6.img fs.img kernel-*.elf memfs
+	initcode initcode.out kernel xv6.img fs.img kernel.elf memfs
 	make -C tools clean
 	make -C usr clean
